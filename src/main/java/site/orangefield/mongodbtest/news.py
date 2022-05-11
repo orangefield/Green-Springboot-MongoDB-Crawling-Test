@@ -56,6 +56,6 @@ def mongo_save(mongo, datas, db_name=None, collection_name=None):
 
 
 # Mongo 연결
-mongo = MongoClient("localhost", 27017)
+mongo = MongoClient("localhost", 20000)
 
 mongo_save(mongo, news_list, "emp", "navers")
